@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-client/1.0.0-beta08/subsonic-client-1.0.0-beta08.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-client",
+    "version": "1.0.0-beta08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zt64.subsonic",
+          "module": "subsonic-api",
+          "version": {
+            "requires": "1.0.0-beta08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-client-mingwX64Main-1.0.0-beta08.klib",
+          "url": "subsonic-client-mingwx64-1.0.0-beta08.klib",
+          "size": 65416,
+          "sha512": "d79459c98925a5244f86d488f35b70b9bcf89417c90ea65a9baed9e4589c5987b72f8de61eabcfc1d2dade00d2b8f01c7e24b5be733ab48403a4da41817da33a",
+          "sha256": "332d55c92253383427b7f4f84969c680bc64e13c31bcd572167fcb2f0971065c",
+          "sha1": "ff1af7147ab3ada110aa743e0d56d252f77bf1be",
+          "md5": "a291794e4aba161798efe55d51248a90"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "subsonic-client-mingwx64-1.0.0-beta08-sources.jar",
+          "url": "subsonic-client-mingwx64-1.0.0-beta08-sources.jar",
+          "size": 7577,
+          "sha512": "d31680b52b83b964dc8c9e4366ad7a8a07404ee5baf571f0cbcd51452f838d4b221cfb4e143cd3d0d94b64f45954ae8d013fb80e31cb4a298f42d94ceefa4f9c",
+          "sha256": "b12586f765ab06dc43bcb9568c5c7cebf1a3344cc54a4b93a090fd48dc8e8e52",
+          "sha1": "a786755f6cded1db36ebb5b4f7149013ad57d0e8",
+          "md5": "b95716bdaf889724eec1c31b99a9a53e"
+        }
+      ]
+    }
+  ]
+}
