@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-api/1.0.0-beta10/subsonic-api-1.0.0-beta10.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-api",
+    "version": "1.0.0-beta10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-js-1.0.0-beta10.klib",
+          "url": "subsonic-api-js-1.0.0-beta10.klib",
+          "size": 316294,
+          "sha512": "7eef29b4508a4aa048c10862a9bd8514d2f4b4612927bcdbfc887d8c4d81bc8594e399712c40d4ac5edd95830e0f266dc3a524afc59b3469b7f1e00a4f108afa",
+          "sha256": "221b360f1d552b548a8e06cbab59d695124ea59e5a22e9d3e5672a9884825339",
+          "sha1": "03ed1bf9cd91be81c06666e547c1f1171d20fdcd",
+          "md5": "8bed46fb4b99f59bdd55f638db54b507"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-js-1.0.0-beta10.klib",
+          "url": "subsonic-api-js-1.0.0-beta10.klib",
+          "size": 316294,
+          "sha512": "7eef29b4508a4aa048c10862a9bd8514d2f4b4612927bcdbfc887d8c4d81bc8594e399712c40d4ac5edd95830e0f266dc3a524afc59b3469b7f1e00a4f108afa",
+          "sha256": "221b360f1d552b548a8e06cbab59d695124ea59e5a22e9d3e5672a9884825339",
+          "sha1": "03ed1bf9cd91be81c06666e547c1f1171d20fdcd",
+          "md5": "8bed46fb4b99f59bdd55f638db54b507"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "subsonic-api-js-1.0.0-beta10-sources.jar",
+          "url": "subsonic-api-js-1.0.0-beta10-sources.jar",
+          "size": 29756,
+          "sha512": "89ec5d460700dacacda3770fcaabfee39596b855e345195f12b3e184fe478550bb384625b15d07d6758fdd49564961345484d1102563d50fbdc00cd2ecb87156",
+          "sha256": "ab4c45d206b5cf7ae055548f429a254f21ceafa54dd2f1fc35f868717a4fd7d9",
+          "sha1": "8928b2b4da90a8ad385e2a31204ff617b0d70b72",
+          "md5": "51c2fbe7e308d407cfaa076dba6e5233"
+        }
+      ]
+    }
+  ]
+}
