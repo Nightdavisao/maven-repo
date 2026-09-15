@@ -37,11 +37,11 @@
         {
           "name": "subsonic-api-wasm-js-1.0.0-beta09.klib",
           "url": "subsonic-api-wasm-js-1.0.0-beta09.klib",
-          "size": 313101,
-          "sha512": "68b8cb69d05c0251c8dafef0c26f1dc0fb8643ad8338ce26cd88e0907bc4835ad41575ed0db44d58d9a675531e57c4b4ff87d06e256758ce42c5baa771b99c2b",
-          "sha256": "947d7177a7ded030511b9d9c8aa6b0339f810fcb271316bb5096674a4f4f99fd",
-          "sha1": "7d815ca27e6a560bb068b22b7ec5635262076cba",
-          "md5": "92b4202637f60adef641d24126766a21"
+          "size": 313204,
+          "sha512": "dc571966cbd27b4cf9a2f1c0c3890199617f668782222e57a134002b2f81fb631e45524d5bb5298f6203e3596876c773f7c7ecd4c3a25fe7735a9bf5082896b3",
+          "sha256": "1f55444bcf51cc7be2accb5eaca1f1e6ae68831f84ad6e092e1986a63f43c91c",
+          "sha1": "560b8963944a4baec21526f964e372da59967d7c",
+          "md5": "d34d4968bc59078754ba69998c4649bd"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "subsonic-api-wasm-js-1.0.0-beta09.klib",
           "url": "subsonic-api-wasm-js-1.0.0-beta09.klib",
-          "size": 313101,
-          "sha512": "68b8cb69d05c0251c8dafef0c26f1dc0fb8643ad8338ce26cd88e0907bc4835ad41575ed0db44d58d9a675531e57c4b4ff87d06e256758ce42c5baa771b99c2b",
-          "sha256": "947d7177a7ded030511b9d9c8aa6b0339f810fcb271316bb5096674a4f4f99fd",
-          "sha1": "7d815ca27e6a560bb068b22b7ec5635262076cba",
-          "md5": "92b4202637f60adef641d24126766a21"
+          "size": 313204,
+          "sha512": "dc571966cbd27b4cf9a2f1c0c3890199617f668782222e57a134002b2f81fb631e45524d5bb5298f6203e3596876c773f7c7ecd4c3a25fe7735a9bf5082896b3",
+          "sha256": "1f55444bcf51cc7be2accb5eaca1f1e6ae68831f84ad6e092e1986a63f43c91c",
+          "sha1": "560b8963944a4baec21526f964e372da59967d7c",
+          "md5": "d34d4968bc59078754ba69998c4649bd"
         }
       ]
     },
@@ -118,11 +118,11 @@
         {
           "name": "subsonic-api-wasm-js-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-wasm-js-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     }

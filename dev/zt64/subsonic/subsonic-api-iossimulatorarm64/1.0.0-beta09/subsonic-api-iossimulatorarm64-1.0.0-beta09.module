@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-iosSimulatorArm64Main-1.0.0-beta09.klib",
           "url": "subsonic-api-iossimulatorarm64-1.0.0-beta09.klib",
-          "size": 329106,
-          "sha512": "c59d9c987f4eac5b9060e168d4f9f5e6406a309865e4e221d52ebac724a3466f3f3f042af43601d207a216c65844cc713d48aa9e74ab7d71030e432e28b92b76",
-          "sha256": "4b29fd4ef4c6379e3413b9882c4cce0a4874065826c2d9582cfdf5635e971dda",
-          "sha1": "c13ddfbbd98b466e5149dbf31ac659b990ea242d",
-          "md5": "027b234c83dcb58c5a658ec063ba229a"
+          "size": 329209,
+          "sha512": "308d494753d0afc602c976a292278118b755f19ae9d3a57589a0741dde60f9922a5d7324c750a12f18664db31bdf0707bbb97844895dce268748ed9e9c47cf7a",
+          "sha256": "8474709f97fdadaf5e354c330e680e6c0205112039ead31f51f779a47e0b274c",
+          "sha1": "8efddc59eb3b0237b2354c7368bf751e9df16d4f",
+          "md5": "9df2d6ee4f543fe9f55f6d79f6c7e419"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-iossimulatorarm64-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-iossimulatorarm64-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     },

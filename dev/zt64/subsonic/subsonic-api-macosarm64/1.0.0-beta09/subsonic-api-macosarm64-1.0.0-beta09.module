@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-macosArm64Main-1.0.0-beta09.klib",
           "url": "subsonic-api-macosarm64-1.0.0-beta09.klib",
-          "size": 329054,
-          "sha512": "56a43ea7b0f3b3ec7ef65739605c1695b4b28dd49b71e04b9b769e17f4125943d87af17a23a0d091db076057097f34cac68f0ef923e180db0c6583d441a4dad5",
-          "sha256": "8c52a9dc6c848045c8e256aa8d4ac1ffd3c760b4598ce64eaea77487ff87ba46",
-          "sha1": "a245bc7e52e24a46956b5cf0866e342b89b76682",
-          "md5": "fe47decd438511037919971ee52e7808"
+          "size": 329157,
+          "sha512": "4ddcaf1c8cd7379a6a75d07dc2587ae422c9a9333e67df136c90d5a397ecad74d8664c7baec100c28edb04428305e355f9e293ce7528a71fc7e7ae17b77e93b6",
+          "sha256": "e4398db402095de7aa6dc0b41f6817612405a6105eef624fe93c45e900207c6e",
+          "sha1": "cd935b2faa19d7a057dc43e00b9fcae81c03991a",
+          "md5": "670ab35ad3d2c0a93b960fb56bf66ec3"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-macosarm64-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-macosarm64-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     },

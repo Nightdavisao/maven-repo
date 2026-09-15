@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-watchosArm64Main-1.0.0-beta09.klib",
           "url": "subsonic-api-watchosarm64-1.0.0-beta09.klib",
-          "size": 329068,
-          "sha512": "7add0c1ede3d184c39d7c40924d18f3f3ebf59e51bc5cb0529944c33bf26aacbcee145b552017c79327653c71048048e33914afa68a045b724d3140a3dd7a555",
-          "sha256": "0f5a1d75541a87e91e554b836d0cfccc2d299a650b4cbc1c13786315aa4c61d2",
-          "sha1": "30b61cc9e0c95e24153283fdab2a9386ce37cec3",
-          "md5": "de9de35f853c7aed7bca865aa98e19cb"
+          "size": 329171,
+          "sha512": "fb464a0de907984696f7f4daee2402a968b98604e3e78831b46586f04be181f33432e5f73b32d04c2af3fd0f4eb059d55780d922968996b2b8d332f655c7259a",
+          "sha256": "86826d546534a55bfa3fc255e015d9c9ef8e63184a4df3246dff68112e303966",
+          "sha1": "a7ded1fd476ee175f54a7086aa76afad93587978",
+          "md5": "30ad51bf5c6e2ecf8807ac4617f27b69"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-watchosarm64-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-watchosarm64-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     },

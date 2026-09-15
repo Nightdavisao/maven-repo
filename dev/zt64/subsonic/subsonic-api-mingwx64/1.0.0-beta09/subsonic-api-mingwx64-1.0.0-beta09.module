@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-mingwX64Main-1.0.0-beta09.klib",
           "url": "subsonic-api-mingwx64-1.0.0-beta09.klib",
-          "size": 329030,
-          "sha512": "3928d9cd5bf769bdf87e918c43297fe677016c492674ca56dc8d5116fb223d591b48ad50d744ee2cbf90955983fb20da260acbfb1218a80996c3474cf8c6ee3f",
-          "sha256": "713dd3f0530117b99c77a66871eb277593d72967b4932d24fc8e3d9f0cd53189",
-          "sha1": "d838142a95daafc1e4e6d6c76a2e3a077961c76c",
-          "md5": "ad271e0ffbbe605f59bd24b953c0d25a"
+          "size": 329133,
+          "sha512": "597c7ccf10d1a418971095e5a21a04174c06ad44276b224a54f17e3f3e9bf91af8a4a8b4022babee2c59ddf22639a4f6f3ae825643d34709a5bf82377f2c4a74",
+          "sha256": "f50fe03635efbe93613992c767ebe47c49919db6a2ced8a5a8d911fbe758eaa5",
+          "sha1": "63449e1415efafdc4c70c63120669ce96e0a8406",
+          "md5": "5146a99b09fa197ea4f5047bba207572"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-mingwx64-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-mingwx64-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     }

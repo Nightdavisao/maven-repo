@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-linuxX64Main-1.0.0-beta09.klib",
           "url": "subsonic-api-linuxx64-1.0.0-beta09.klib",
-          "size": 329042,
-          "sha512": "b60c14603002231dbe6856aa3bf9dcdafe07f79fdae3613f5a37e57793012769a741fd3ebf0ca0a185a81fbce637db395ef69a3f1bd2d0550ffde9e8de0f2b22",
-          "sha256": "1bca7ceaa2a18bc4b011ffdc57445fd4dd48f98bf6c537ac7ac53496f6fa9f5a",
-          "sha1": "fe570f6d39613ffd8a3132d90fd4783d6501bd73",
-          "md5": "a0665d0c667f6558f9ae948920a27a91"
+          "size": 329145,
+          "sha512": "a8cd30776b7c567f57047052f083a4f2da7e664e7fa5d6c6ecb7466ee7fb72670fbb4803696a08353b13bbedf997b05436a31a2c1c74cb90328c8dec304fcead",
+          "sha256": "59003c960fce12926875329d103122094dbc13a0668f7486467871dd3e1ee1a8",
+          "sha1": "ba481bb03e613961c4dbad84cbdf38a844d57e09",
+          "md5": "12003fcf2e4d1b07054dbcf8aa1c694d"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-linuxx64-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-linuxx64-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     }

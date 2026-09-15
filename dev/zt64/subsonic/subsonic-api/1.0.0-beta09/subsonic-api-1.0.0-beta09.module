@@ -63,11 +63,11 @@
         {
           "name": "subsonic-api-metadata-1.0.0-beta09.jar",
           "url": "subsonic-api-1.0.0-beta09.jar",
-          "size": 45987,
-          "sha512": "7bdcbe6e41640ce61ff04235da7bace7e896a80094d7b09d501a44621b31760c252b4838c7036003d129b2ac3c15ce64164b76d2085da1a55fdbaefcbc3c70c2",
-          "sha256": "1c6a1c9eddd12db7c2fe47e2c4269e73ed66d58b43d97116022bd4a40dec042a",
-          "sha1": "44aeab4ca70aaae967bcfb06e339f8bd20deb9a4",
-          "md5": "8038772cdc649b242350a82cabab46bb"
+          "size": 45985,
+          "sha512": "d2bb0cb68da9d0ae95586c99a0a63060bf4212ff77d1ac5e6d500317f0603e48134b326954e84bc413d7ed4a1cb3ac5bf168dc4a06e3e241afa635ab288acbc7",
+          "sha256": "4e0eedc75626c05017a70bf1ac5bbd1f4276378c6ca9489995b6ae8f44a5c6b7",
+          "sha1": "d4c57e2ac91bae053bf35b0aa97dd388888e4c57",
+          "md5": "88d77c6457a90bd6cfef40862f523b09"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "subsonic-api-kotlin-1.0.0-beta09-sources.jar",
           "url": "subsonic-api-1.0.0-beta09-sources.jar",
-          "size": 29771,
-          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
-          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
-          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
-          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+          "size": 29792,
+          "sha512": "9464122ba4ea101afac46f1c8c46e8c8eb7f37edf016ef2078e420ea36ca50ef4aa7baee90c919b50d3230565dbd228048b736dbb8d31893cf8994655e2cdb5f",
+          "sha256": "aaf2d0e767767b1e08d45296d29b076a4f1266c9449ba2598a0bb56b4714f11b",
+          "sha1": "6f949a29034a5a3c5f699b52bf8973e08edb54cb",
+          "md5": "cd483bbe80471160775801fba090f3fc"
         }
       ]
     },
