@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-api/1.0.0-beta09/subsonic-api-1.0.0-beta09.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-api",
+    "version": "1.0.0-beta09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-linuxX64Main-1.0.0-beta09.klib",
+          "url": "subsonic-api-linuxx64-1.0.0-beta09.klib",
+          "size": 329042,
+          "sha512": "b60c14603002231dbe6856aa3bf9dcdafe07f79fdae3613f5a37e57793012769a741fd3ebf0ca0a185a81fbce637db395ef69a3f1bd2d0550ffde9e8de0f2b22",
+          "sha256": "1bca7ceaa2a18bc4b011ffdc57445fd4dd48f98bf6c537ac7ac53496f6fa9f5a",
+          "sha1": "fe570f6d39613ffd8a3132d90fd4783d6501bd73",
+          "md5": "a0665d0c667f6558f9ae948920a27a91"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "subsonic-api-linuxx64-1.0.0-beta09-sources.jar",
+          "url": "subsonic-api-linuxx64-1.0.0-beta09-sources.jar",
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
+        }
+      ]
+    }
+  ]
+}
