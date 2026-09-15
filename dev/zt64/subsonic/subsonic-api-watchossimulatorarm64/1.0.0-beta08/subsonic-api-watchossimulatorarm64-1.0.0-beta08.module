@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-watchosSimulatorArm64Main-1.0.0-beta08.klib",
           "url": "subsonic-api-watchossimulatorarm64-1.0.0-beta08.klib",
-          "size": 302427,
-          "sha512": "58ab6a865da83ed6078b5838407365287c6e23ba765e8f9c6e09f17712071ec102992fb47ab65dc59e8e8e843b4307b95b75e0eec7ad9b7c5b12eb56bc60366d",
-          "sha256": "7675c60a9889ef074edeee97d22b5a8392fa8d8cfd753a22a61c8a8aff970d41",
-          "sha1": "3d83d63bc1e4f6046e96ba2cbff9111401d32c01",
-          "md5": "139f675612af4110bb18b4cd4dabdffc"
+          "size": 329134,
+          "sha512": "37fe98cff0587b60df819f87a65189bd819844f28df8c124288dda6d5edb7a31df71b98c9f8dce7b76efd800478ff2770555f24ffafed0efafdeb44f27752d18",
+          "sha256": "da7399db3b07386530c46674738e7b6140bf0ef34a268d3e2a7728e693c3cd6c",
+          "sha1": "e44c44f745662f0240fb05957ee9e730b64f0d13",
+          "md5": "cdc61f63ad7c1f1afd77bb84ae422aa1"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-watchossimulatorarm64-1.0.0-beta08-sources.jar",
           "url": "subsonic-api-watchossimulatorarm64-1.0.0-beta08-sources.jar",
-          "size": 27754,
-          "sha512": "3af78e9a2b7c6790e8711f54d551a7a43217a1ae0b439720dfa0ef6984950a62cffe97f4e04881c714622c3a0ed2d96a0efe697abf1073174570da5c0b890bd7",
-          "sha256": "08eb1ecdb3020ea219457084aaa35175dc4f50c5d56c3c5082d217963a45f951",
-          "sha1": "b355696e4dddfea2171feee118c51b2caff9da31",
-          "md5": "29a45445145c22f715d143cad7a44006"
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
         }
       ]
     },

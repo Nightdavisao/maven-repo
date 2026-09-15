@@ -72,11 +72,11 @@
         {
           "name": "subsonic-client-watchosArm32Main-1.0.0-beta08.klib",
           "url": "subsonic-client-watchosarm32-1.0.0-beta08.klib",
-          "size": 65455,
-          "sha512": "02a27a9c514513aa210d20f7f40b8678281f20d2508842da25fcb5674787399ffa166a2bdebdc2d01bbfda0fa254ac39f931bcf4c3f810f7fa6328770c50ea8f",
-          "sha256": "b94e2303efa3f2f91de35f8704685ee0bec6a5a96e54f071f7b2d4814968b329",
-          "sha1": "f0bc06c6bbcfc1c8fb046b2a77a69be377bb96a9",
-          "md5": "efd19699eb77bd88673f8a0f328c77c3"
+          "size": 65905,
+          "sha512": "62bd2e76e5055cd7ee0b2c7ca850abf8c790538b7a78aef03a6a98964e009c9b798b722c5987f5b87ff9893fe7b47fd8f89dcaee2f0825a6210d558825f698df",
+          "sha256": "44f3a8c885a619ee262b8d59228b68db418582d8e5fac884d000c1991b294aab",
+          "sha1": "b3ef0434096f4daa379eaeec4ec371522e8aa2bd",
+          "md5": "76168cce0b80634d6022e4632c05b3cb"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "subsonic-client-watchosarm32-1.0.0-beta08-sources.jar",
           "url": "subsonic-client-watchosarm32-1.0.0-beta08-sources.jar",
-          "size": 7577,
-          "sha512": "d31680b52b83b964dc8c9e4366ad7a8a07404ee5baf571f0cbcd51452f838d4b221cfb4e143cd3d0d94b64f45954ae8d013fb80e31cb4a298f42d94ceefa4f9c",
-          "sha256": "b12586f765ab06dc43bcb9568c5c7cebf1a3344cc54a4b93a090fd48dc8e8e52",
-          "sha1": "a786755f6cded1db36ebb5b4f7149013ad57d0e8",
-          "md5": "b95716bdaf889724eec1c31b99a9a53e"
+          "size": 7650,
+          "sha512": "5a698e67bfbce4c658b94311f0382ceeb91c96e8be3fd3ae607cf81fa4667a75858dde79e785f58e504ad9be70f4b1fd55d318c9a391ce16d1fe573a721637a9",
+          "sha256": "24ab6f2cd38e1d9ce5842fb8745f420c8d3e9c847d46fb99a4c422f6a29f7f09",
+          "sha1": "379f7047ec0970d0501cf2c8f7558fddad7fcf45",
+          "md5": "569a37f08aedfce9ededde8d77a452aa"
         }
       ]
     },

@@ -51,11 +51,11 @@
         {
           "name": "subsonic-client-js-1.0.0-beta08.klib",
           "url": "subsonic-client-js-1.0.0-beta08.klib",
-          "size": 64430,
-          "sha512": "6033430a86a0ad1dcaa0b76bcfe4dd659396fa444bcabfb45a065ba81f50c7c609bab484eda45f0ba4669f8311d4f7edd9a52e522484e1d0856fb29be803ea8b",
-          "sha256": "3bd6cb316c1868efc0e77849bff4285ba24ac3e799cbdaabe9c1e4bc9fd972a3",
-          "sha1": "083963e6d44a6a2ff7c9df79e0f8a48aba13321d",
-          "md5": "a0eb554b290999190b7e65673ce2057a"
+          "size": 64882,
+          "sha512": "51c684c00f95632ee02c38598d1b396a769f4e86a261de204aae29bdea4c2b474c25b1a830939b3109541fdb5e61fc3bf919818fa25663dfcea2351d70cf92cc",
+          "sha256": "784291437c47ecd251b5011080ac40350aac8ff5528dcab4e865088796f43275",
+          "sha1": "5d0e852a951f8fe9f24ad161f989f2e77fd790ab",
+          "md5": "2d70114d0d44cd66038deab0cfd3aa12"
         }
       ]
     },
@@ -123,11 +123,11 @@
         {
           "name": "subsonic-client-js-1.0.0-beta08.klib",
           "url": "subsonic-client-js-1.0.0-beta08.klib",
-          "size": 64430,
-          "sha512": "6033430a86a0ad1dcaa0b76bcfe4dd659396fa444bcabfb45a065ba81f50c7c609bab484eda45f0ba4669f8311d4f7edd9a52e522484e1d0856fb29be803ea8b",
-          "sha256": "3bd6cb316c1868efc0e77849bff4285ba24ac3e799cbdaabe9c1e4bc9fd972a3",
-          "sha1": "083963e6d44a6a2ff7c9df79e0f8a48aba13321d",
-          "md5": "a0eb554b290999190b7e65673ce2057a"
+          "size": 64882,
+          "sha512": "51c684c00f95632ee02c38598d1b396a769f4e86a261de204aae29bdea4c2b474c25b1a830939b3109541fdb5e61fc3bf919818fa25663dfcea2351d70cf92cc",
+          "sha256": "784291437c47ecd251b5011080ac40350aac8ff5528dcab4e865088796f43275",
+          "sha1": "5d0e852a951f8fe9f24ad161f989f2e77fd790ab",
+          "md5": "2d70114d0d44cd66038deab0cfd3aa12"
         }
       ]
     },
@@ -146,11 +146,11 @@
         {
           "name": "subsonic-client-js-1.0.0-beta08-sources.jar",
           "url": "subsonic-client-js-1.0.0-beta08-sources.jar",
-          "size": 7577,
-          "sha512": "d31680b52b83b964dc8c9e4366ad7a8a07404ee5baf571f0cbcd51452f838d4b221cfb4e143cd3d0d94b64f45954ae8d013fb80e31cb4a298f42d94ceefa4f9c",
-          "sha256": "b12586f765ab06dc43bcb9568c5c7cebf1a3344cc54a4b93a090fd48dc8e8e52",
-          "sha1": "a786755f6cded1db36ebb5b4f7149013ad57d0e8",
-          "md5": "b95716bdaf889724eec1c31b99a9a53e"
+          "size": 7650,
+          "sha512": "5a698e67bfbce4c658b94311f0382ceeb91c96e8be3fd3ae607cf81fa4667a75858dde79e785f58e504ad9be70f4b1fd55d318c9a391ce16d1fe573a721637a9",
+          "sha256": "24ab6f2cd38e1d9ce5842fb8745f420c8d3e9c847d46fb99a4c422f6a29f7f09",
+          "sha1": "379f7047ec0970d0501cf2c8f7558fddad7fcf45",
+          "md5": "569a37f08aedfce9ededde8d77a452aa"
         }
       ]
     }

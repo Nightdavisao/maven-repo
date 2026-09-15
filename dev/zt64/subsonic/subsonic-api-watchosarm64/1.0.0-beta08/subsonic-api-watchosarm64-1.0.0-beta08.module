@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-watchosArm64Main-1.0.0-beta08.klib",
           "url": "subsonic-api-watchosarm64-1.0.0-beta08.klib",
-          "size": 302361,
-          "sha512": "df32ff5b7a416995c7ebf5b48f8bb2a4b8cc36b2e7f0868b97a6394b9558d2fe5bef378577f79ce85b93d16c364a42e9be9f764164049a7f5e34951da7cdf723",
-          "sha256": "087299a827adcadf9ef9f6fc7a33e2cb1c3656fe3301d26380d34a63557ba8dc",
-          "sha1": "c73f1dda74752c3e11ae28ef2513dad4708f5f79",
-          "md5": "d0dbce5ab575781fcd36e6704ed0063b"
+          "size": 329068,
+          "sha512": "7add0c1ede3d184c39d7c40924d18f3f3ebf59e51bc5cb0529944c33bf26aacbcee145b552017c79327653c71048048e33914afa68a045b724d3140a3dd7a555",
+          "sha256": "0f5a1d75541a87e91e554b836d0cfccc2d299a650b4cbc1c13786315aa4c61d2",
+          "sha1": "30b61cc9e0c95e24153283fdab2a9386ce37cec3",
+          "md5": "de9de35f853c7aed7bca865aa98e19cb"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-watchosarm64-1.0.0-beta08-sources.jar",
           "url": "subsonic-api-watchosarm64-1.0.0-beta08-sources.jar",
-          "size": 27754,
-          "sha512": "3af78e9a2b7c6790e8711f54d551a7a43217a1ae0b439720dfa0ef6984950a62cffe97f4e04881c714622c3a0ed2d96a0efe697abf1073174570da5c0b890bd7",
-          "sha256": "08eb1ecdb3020ea219457084aaa35175dc4f50c5d56c3c5082d217963a45f951",
-          "sha1": "b355696e4dddfea2171feee118c51b2caff9da31",
-          "md5": "29a45445145c22f715d143cad7a44006"
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
         }
       ]
     },

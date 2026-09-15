@@ -44,11 +44,11 @@
         {
           "name": "subsonic-api-js-1.0.0-beta08.klib",
           "url": "subsonic-api-js-1.0.0-beta08.klib",
-          "size": 290327,
-          "sha512": "2a873596395844100d236121764e65c217ba8a85dfaf90fe70a288beac0d130600029879b419294592e6062b98211600a584243d7334a8e5c7a07f94bcc1857b",
-          "sha256": "2252a062abc37a083c594e22ebfa6f5891c0bfb040d65c32d1849b0e1ec0ea10",
-          "sha1": "497fc96ceda7d4cb67b61505098afc916e126866",
-          "md5": "52303b812ed0e66ad3e22eb493e4b33f"
+          "size": 316351,
+          "sha512": "790c889bc6d373d0d4dd40a6387af1475fafd13c10c8874dec5a0dca3716070cd7cc46d541a13888c8f2d7f708b6224e3b596cffd0b245dd8e83bf21db3f0bc3",
+          "sha256": "afdafbbc8d2d94346d16e571e0e37af6455df0cf7679a7ee59435a9842507678",
+          "sha1": "c62acd0d5be9c51f59b840dfa96dd4872b36dfeb",
+          "md5": "ae448fa4b7f7c445f53c84ae0dce0172"
         }
       ]
     },
@@ -109,11 +109,11 @@
         {
           "name": "subsonic-api-js-1.0.0-beta08.klib",
           "url": "subsonic-api-js-1.0.0-beta08.klib",
-          "size": 290327,
-          "sha512": "2a873596395844100d236121764e65c217ba8a85dfaf90fe70a288beac0d130600029879b419294592e6062b98211600a584243d7334a8e5c7a07f94bcc1857b",
-          "sha256": "2252a062abc37a083c594e22ebfa6f5891c0bfb040d65c32d1849b0e1ec0ea10",
-          "sha1": "497fc96ceda7d4cb67b61505098afc916e126866",
-          "md5": "52303b812ed0e66ad3e22eb493e4b33f"
+          "size": 316351,
+          "sha512": "790c889bc6d373d0d4dd40a6387af1475fafd13c10c8874dec5a0dca3716070cd7cc46d541a13888c8f2d7f708b6224e3b596cffd0b245dd8e83bf21db3f0bc3",
+          "sha256": "afdafbbc8d2d94346d16e571e0e37af6455df0cf7679a7ee59435a9842507678",
+          "sha1": "c62acd0d5be9c51f59b840dfa96dd4872b36dfeb",
+          "md5": "ae448fa4b7f7c445f53c84ae0dce0172"
         }
       ]
     },
@@ -132,11 +132,11 @@
         {
           "name": "subsonic-api-js-1.0.0-beta08-sources.jar",
           "url": "subsonic-api-js-1.0.0-beta08-sources.jar",
-          "size": 27754,
-          "sha512": "3af78e9a2b7c6790e8711f54d551a7a43217a1ae0b439720dfa0ef6984950a62cffe97f4e04881c714622c3a0ed2d96a0efe697abf1073174570da5c0b890bd7",
-          "sha256": "08eb1ecdb3020ea219457084aaa35175dc4f50c5d56c3c5082d217963a45f951",
-          "sha1": "b355696e4dddfea2171feee118c51b2caff9da31",
-          "md5": "29a45445145c22f715d143cad7a44006"
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
         }
       ]
     }

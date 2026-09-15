@@ -72,11 +72,11 @@
         {
           "name": "subsonic-client-linuxX64Main-1.0.0-beta08.klib",
           "url": "subsonic-client-linuxx64-1.0.0-beta08.klib",
-          "size": 65429,
-          "sha512": "8161e964fdd1864c80fefcf34b6e4f8442c6e0abd9ae55e06c802fdd592a3c6d821dc78f2033a9b061daaee8924ebc7a6eaef5bca777dabb7bd5c537618a1eeb",
-          "sha256": "110237f745888b20024a1de52dbdc3124c5afdb1e27941ecb8c156313452093f",
-          "sha1": "237ca2c25a4844bac9dab2d0dee03939e6fad74a",
-          "md5": "ea751c8b5fd52d817c4c51c3f26f7924"
+          "size": 65879,
+          "sha512": "35ba9f7c11cb98f4df3510c2a28d43da1b35100ce8ff1a068235b5535faf1deb9e94ef441952ef63c517e164a423b82b9937c6ffeb69d9c7091cc409dbc0febb",
+          "sha256": "425d5ac6dd26ff92980a0969d088a617ac218843088e08514182737a6f5f3198",
+          "sha1": "a627222e00446b3c8b04d5933f0486e7056d54c1",
+          "md5": "c94aa7793dbca881195a4b3eb30c1c84"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "subsonic-client-linuxx64-1.0.0-beta08-sources.jar",
           "url": "subsonic-client-linuxx64-1.0.0-beta08-sources.jar",
-          "size": 7577,
-          "sha512": "d31680b52b83b964dc8c9e4366ad7a8a07404ee5baf571f0cbcd51452f838d4b221cfb4e143cd3d0d94b64f45954ae8d013fb80e31cb4a298f42d94ceefa4f9c",
-          "sha256": "b12586f765ab06dc43bcb9568c5c7cebf1a3344cc54a4b93a090fd48dc8e8e52",
-          "sha1": "a786755f6cded1db36ebb5b4f7149013ad57d0e8",
-          "md5": "b95716bdaf889724eec1c31b99a9a53e"
+          "size": 7650,
+          "sha512": "5a698e67bfbce4c658b94311f0382ceeb91c96e8be3fd3ae607cf81fa4667a75858dde79e785f58e504ad9be70f4b1fd55d318c9a391ce16d1fe573a721637a9",
+          "sha256": "24ab6f2cd38e1d9ce5842fb8745f420c8d3e9c847d46fb99a4c422f6a29f7f09",
+          "sha1": "379f7047ec0970d0501cf2c8f7558fddad7fcf45",
+          "md5": "569a37f08aedfce9ededde8d77a452aa"
         }
       ]
     }

@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-tvosSimulatorArm64Main-1.0.0-beta08.klib",
           "url": "subsonic-api-tvossimulatorarm64-1.0.0-beta08.klib",
-          "size": 302406,
-          "sha512": "6b2d26d803c88750f14b0ff13bbaa84721f7dca0e2355a807e815017e2d7f30d1760a8cd864b16b2ed29cca53216a3e16750bffca54b71f6eb7bbe89a966db4a",
-          "sha256": "a2bad550bc7acf5054ce807e7b3bbf11cbada9fa4f1ee8a3aa42d345fdee69e0",
-          "sha1": "80332aff93b26511e25b67e288cc6fc195754d0b",
-          "md5": "d0091f29e1787e1069ae6b4964900072"
+          "size": 329113,
+          "sha512": "1e0a4b8e415c4262b81c8b665b480aba1a39572f1673166264ec4c583609b55ea194dbb8e1f16da1b8aff9b385c38e9540999256aafc449d7c3c23ed4433bd01",
+          "sha256": "47068c43c506a32b8d3431d9fa8115e053e15037d94792cfcb0d6de791bb9dc1",
+          "sha1": "204e591bc5ff98f1f65f9d54492ed483f4574fcb",
+          "md5": "be99f6540b094358274f721029bbb5bf"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-tvossimulatorarm64-1.0.0-beta08-sources.jar",
           "url": "subsonic-api-tvossimulatorarm64-1.0.0-beta08-sources.jar",
-          "size": 27754,
-          "sha512": "3af78e9a2b7c6790e8711f54d551a7a43217a1ae0b439720dfa0ef6984950a62cffe97f4e04881c714622c3a0ed2d96a0efe697abf1073174570da5c0b890bd7",
-          "sha256": "08eb1ecdb3020ea219457084aaa35175dc4f50c5d56c3c5082d217963a45f951",
-          "sha1": "b355696e4dddfea2171feee118c51b2caff9da31",
-          "md5": "29a45445145c22f715d143cad7a44006"
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
         }
       ]
     },

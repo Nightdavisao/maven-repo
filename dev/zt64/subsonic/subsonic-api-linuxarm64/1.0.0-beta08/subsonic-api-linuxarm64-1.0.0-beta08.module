@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-linuxArm64Main-1.0.0-beta08.klib",
           "url": "subsonic-api-linuxarm64-1.0.0-beta08.klib",
-          "size": 302348,
-          "sha512": "a326194c63241ee303eeaa11b0062a54c69af5d822a96c14095967ab2f11e24760ae02f364534f144912fd1bf86e07ed9836a52df62906bedaeac367d1a167c1",
-          "sha256": "f4f5a84a299a009a55a64bdf539d42f2d6631f725ec4e1e7574e1b47c1742c28",
-          "sha1": "d57dd049df660727648ddf6853159603e737c846",
-          "md5": "a656144a3e87247eeaeefb2d1e863ddc"
+          "size": 329055,
+          "sha512": "b42a7d62b1321200b3ec71ad8b2cd4793ac56b0112108c194e7f75594e462076ab9dface6d432ec5a4c3d099ad8846dffe8b467400dc1e9c214394571ac6fe7a",
+          "sha256": "308d745931780847ab37a64859a260dc135f3a87c19f7ed58008b27c9ac64a52",
+          "sha1": "e4db533feb985f2625c75deed3a8a4169bd201b9",
+          "md5": "483913e818cdaa29bbaa1fb4ae8c0bda"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-linuxarm64-1.0.0-beta08-sources.jar",
           "url": "subsonic-api-linuxarm64-1.0.0-beta08-sources.jar",
-          "size": 27754,
-          "sha512": "3af78e9a2b7c6790e8711f54d551a7a43217a1ae0b439720dfa0ef6984950a62cffe97f4e04881c714622c3a0ed2d96a0efe697abf1073174570da5c0b890bd7",
-          "sha256": "08eb1ecdb3020ea219457084aaa35175dc4f50c5d56c3c5082d217963a45f951",
-          "sha1": "b355696e4dddfea2171feee118c51b2caff9da31",
-          "md5": "29a45445145c22f715d143cad7a44006"
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
         }
       ]
     }

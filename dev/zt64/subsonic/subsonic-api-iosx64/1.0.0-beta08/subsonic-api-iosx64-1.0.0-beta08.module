@@ -65,11 +65,11 @@
         {
           "name": "subsonic-api-iosX64Main-1.0.0-beta08.klib",
           "url": "subsonic-api-iosx64-1.0.0-beta08.klib",
-          "size": 302321,
-          "sha512": "1371656b6e09805a2d89afeffc3c5536ab8371bc4fc35bfe349a67c37d7ee4956cda8645d83472e3a4d5fc00d3ff897189a6059a64ebb241e46b0662a9efd541",
-          "sha256": "be6f2ce42ef175fa5ff8601a2342cc94f8c4d2482bf6396754b26fb56466ff3d",
-          "sha1": "b90d68d7ec8ec795b65274d240b27e44da83aa0d",
-          "md5": "714532354922a8e4455f108dcb6dd2f7"
+          "size": 329028,
+          "sha512": "5cab0d5522eedfb39b2600ee470f323e07abbd101623bcbfc8537c9d2ce0cbd83441a3c778340b4f490f4854d4aacdcb6bf902a8295c83653660651dd22ff81d",
+          "sha256": "e5911362eb464b94e2ffccf6facb97e8fabe90164897c9e24ae70e885b3e5ded",
+          "sha1": "273946f252f5ac948ef7a346a3b6ca396c655291",
+          "md5": "512383971d21c091c33ca05d4dff55cf"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "subsonic-api-iosx64-1.0.0-beta08-sources.jar",
           "url": "subsonic-api-iosx64-1.0.0-beta08-sources.jar",
-          "size": 27754,
-          "sha512": "3af78e9a2b7c6790e8711f54d551a7a43217a1ae0b439720dfa0ef6984950a62cffe97f4e04881c714622c3a0ed2d96a0efe697abf1073174570da5c0b890bd7",
-          "sha256": "08eb1ecdb3020ea219457084aaa35175dc4f50c5d56c3c5082d217963a45f951",
-          "sha1": "b355696e4dddfea2171feee118c51b2caff9da31",
-          "md5": "29a45445145c22f715d143cad7a44006"
+          "size": 29771,
+          "sha512": "ebd841ddbdc134348ab7058109af01f9107cf20bfc5208737a43318a072294f20fce393b9fef8433d26c151fb0aa8c241220a5c76259aa3e54913ae61f8b64c8",
+          "sha256": "fa74d07c1b627546d58a59c7a85fffc97bfb1e1429887fcd49db31a04655a717",
+          "sha1": "b1c78e893496a6883259d7d54b8082629bbfc6de",
+          "md5": "fcdc649421b182f2cef83ac8a30617ff"
         }
       ]
     },

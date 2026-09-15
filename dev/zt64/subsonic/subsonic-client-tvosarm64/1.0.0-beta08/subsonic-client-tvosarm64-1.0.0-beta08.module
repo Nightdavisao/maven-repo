@@ -72,11 +72,11 @@
         {
           "name": "subsonic-client-tvosArm64Main-1.0.0-beta08.klib",
           "url": "subsonic-client-tvosarm64-1.0.0-beta08.klib",
-          "size": 65436,
-          "sha512": "e47b1b1fe01c57bc18c95680028fe2a0c1a5912522678c94c62d00630bdf3bad122a3a894b345bc3dca6d567da0d450abdf0620e194706a3b2bad78dcf5d2264",
-          "sha256": "2b231084af8db845130f357da6b29bff619f7e848a13c3bf143ef0487e90c341",
-          "sha1": "a320eb4d18a6b3fc8f3ea97233653d74e774aa39",
-          "md5": "6a41e60d071298970e56f3b764cc133f"
+          "size": 65886,
+          "sha512": "1ad4d0a73f18e882586d751b2c4b7f26513ce76139af0a9c64b241f02dd155582d8dee407039c6d4c340dc0da6fe9117ffca1a3378c671c68ec3786427785239",
+          "sha256": "f915d6009471a20dc3283c46b6c84b22bcbeb39d8a05726e9badfd3875906ffe",
+          "sha1": "c1f698dc752183a5d33c4513b614a60aa0b46e71",
+          "md5": "4363acc69ac61607293a434ce11de9f2"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "subsonic-client-tvosarm64-1.0.0-beta08-sources.jar",
           "url": "subsonic-client-tvosarm64-1.0.0-beta08-sources.jar",
-          "size": 7577,
-          "sha512": "d31680b52b83b964dc8c9e4366ad7a8a07404ee5baf571f0cbcd51452f838d4b221cfb4e143cd3d0d94b64f45954ae8d013fb80e31cb4a298f42d94ceefa4f9c",
-          "sha256": "b12586f765ab06dc43bcb9568c5c7cebf1a3344cc54a4b93a090fd48dc8e8e52",
-          "sha1": "a786755f6cded1db36ebb5b4f7149013ad57d0e8",
-          "md5": "b95716bdaf889724eec1c31b99a9a53e"
+          "size": 7650,
+          "sha512": "5a698e67bfbce4c658b94311f0382ceeb91c96e8be3fd3ae607cf81fa4667a75858dde79e785f58e504ad9be70f4b1fd55d318c9a391ce16d1fe573a721637a9",
+          "sha256": "24ab6f2cd38e1d9ce5842fb8745f420c8d3e9c847d46fb99a4c422f6a29f7f09",
+          "sha1": "379f7047ec0970d0501cf2c8f7558fddad7fcf45",
+          "md5": "569a37f08aedfce9ededde8d77a452aa"
         }
       ]
     },
