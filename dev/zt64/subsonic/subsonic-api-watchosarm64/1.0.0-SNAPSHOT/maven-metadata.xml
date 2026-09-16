@@ -3,44 +3,44 @@
   <groupId>dev.zt64.subsonic</groupId>
   <artifactId>subsonic-api-watchosarm64</artifactId>
   <versioning>
-    <lastUpdated>20260916125628</lastUpdated>
+    <lastUpdated>20260916185320</lastUpdated>
     <snapshot>
-      <timestamp>20260916.125628</timestamp>
+      <timestamp>20260916.185320</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>klib</extension>
+        <value>1.0.0-20260916.185320-1</value>
+        <updated>20260916185320</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260916.125628-1</value>
-        <updated>20260916125628</updated>
+        <value>1.0.0-20260916.185320-1</value>
+        <updated>20260916185320</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>1.0.0-20260916.125628-1</value>
-        <updated>20260916125628</updated>
+        <extension>module</extension>
+        <value>1.0.0-20260916.185320-1</value>
+        <updated>20260916185320</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260916.125628-1</value>
-        <updated>20260916125628</updated>
+        <extension>pom</extension>
+        <value>1.0.0-20260916.185320-1</value>
+        <updated>20260916185320</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260916.125628-1</value>
-        <updated>20260916125628</updated>
+        <value>1.0.0-20260916.185320-1</value>
+        <updated>20260916185320</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.0-20260916.125628-1</value>
-        <updated>20260916125628</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-20260916.125628-1</value>
-        <updated>20260916125628</updated>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260916.185320-1</value>
+        <updated>20260916185320</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
