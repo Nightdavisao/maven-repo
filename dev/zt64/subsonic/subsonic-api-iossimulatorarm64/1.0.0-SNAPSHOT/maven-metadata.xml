@@ -3,44 +3,44 @@
   <groupId>dev.zt64.subsonic</groupId>
   <artifactId>subsonic-api-iossimulatorarm64</artifactId>
   <versioning>
-    <lastUpdated>20260916035002</lastUpdated>
+    <lastUpdated>20260916042411</lastUpdated>
     <snapshot>
-      <timestamp>20260916.035002</timestamp>
+      <timestamp>20260916.042411</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260916.035002-1</value>
-        <updated>20260916035002</updated>
+        <extension>module</extension>
+        <value>1.0.0-20260916.042411-1</value>
+        <updated>20260916042411</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260916.035002-1</value>
-        <updated>20260916035002</updated>
+        <extension>pom</extension>
+        <value>1.0.0-20260916.042411-1</value>
+        <updated>20260916042411</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260916.035002-1</value>
-        <updated>20260916035002</updated>
+        <value>1.0.0-20260916.042411-1</value>
+        <updated>20260916042411</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260916.042411-1</value>
+        <updated>20260916042411</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260916.042411-1</value>
+        <updated>20260916042411</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>1.0.0-20260916.035002-1</value>
-        <updated>20260916035002</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.0-20260916.035002-1</value>
-        <updated>20260916035002</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-20260916.035002-1</value>
-        <updated>20260916035002</updated>
+        <value>1.0.0-20260916.042411-1</value>
+        <updated>20260916042411</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
