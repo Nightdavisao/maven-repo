@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-client/1.0.0-SNAPSHOT/subsonic-client-1.0.0-SNAPSHOT.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-client",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zt64.subsonic",
+          "module": "subsonic-api",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-client-wasm-js-1.0.0-SNAPSHOT.klib",
+          "url": "subsonic-client-wasm-js-1.0.0-SNAPSHOT.klib",
+          "size": 66260,
+          "sha512": "36bdc0079daa6da87cdf5f4daa3d4e0f0b991e732f6f93ee58ca941b1b75669b6daa1fee43e4480962c8afb63dc9dbb7169d33c8f0565539019f169d314e2ee0",
+          "sha256": "f2534a4ffc9b6a5b282e840ae77998a33d422c44507a7f2e4d33dab307021ed7",
+          "sha1": "5014d401f9a3b990bf34b091baeb273b8d8828a0",
+          "md5": "8fe42ac5c62bdfc14a1471cb1137b086"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zt64.subsonic",
+          "module": "subsonic-api",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-client-wasm-js-1.0.0-SNAPSHOT.klib",
+          "url": "subsonic-client-wasm-js-1.0.0-SNAPSHOT.klib",
+          "size": 66260,
+          "sha512": "36bdc0079daa6da87cdf5f4daa3d4e0f0b991e732f6f93ee58ca941b1b75669b6daa1fee43e4480962c8afb63dc9dbb7169d33c8f0565539019f169d314e2ee0",
+          "sha256": "f2534a4ffc9b6a5b282e840ae77998a33d422c44507a7f2e4d33dab307021ed7",
+          "sha1": "5014d401f9a3b990bf34b091baeb273b8d8828a0",
+          "md5": "8fe42ac5c62bdfc14a1471cb1137b086"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "subsonic-client-wasm-js-1.0.0-SNAPSHOT-sources.jar",
+          "url": "subsonic-client-wasm-js-1.0.0-SNAPSHOT-sources.jar",
+          "size": 8111,
+          "sha512": "07f987b598ee52922cfb43df267ea27afd203d5c32105deadfddff10abefab66ae162cf6033f8b323fb327a9e7a90855165cdbce86a8a5fcf469b5475489e01c",
+          "sha256": "bcdcbcb8710aed2258a6d15526a8a4372c6e3f7a4aa6dcde4400b06301621c49",
+          "sha1": "6891f5fcdde933ced85d7abec673994bdeebea05",
+          "md5": "941f5221af6044d51c4aed46d8ff18c5"
+        }
+      ]
+    }
+  ]
+}
