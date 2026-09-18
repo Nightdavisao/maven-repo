@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-api/1.0.0-SNAPSHOT/subsonic-api-1.0.0-SNAPSHOT.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-api",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-watchosArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "subsonic-api-watchosarm64-1.0.0-SNAPSHOT.klib",
+          "size": 333099,
+          "sha512": "2a6b2dd3c6b59c95855d2e68f44bb338f2ad5be0361d19d2e7e96671df5e28bb336bac38a34ffda38d87d7a7c2e1132e167d60c706ba5e8be8620f197af0a22c",
+          "sha256": "bb9ee1c05aa7349be1644dbfde0a31b4d73e786b4ede57f91dc8d9b284fa0508",
+          "sha1": "7768cfe0f0f96cdd33d355eb1e327015b1634c1b",
+          "md5": "dc3b21a7bbf7a0892d85483a77f0f6ac"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "subsonic-api-watchosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "subsonic-api-watchosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 29936,
+          "sha512": "826de82b3a73c35376c69e3342679a32a42da040de591271a84edfda908a241b2a49c03597551ab1cd59c19b1fb79ca1e106875432e43e9a68b6b2dd694f5f30",
+          "sha256": "97cef69307922c301451e04a7aefb9120bc8aed7905a5e1d940a72b29579ebd7",
+          "sha1": "0a4c9448f01820e4f3262f871377353fbde13929",
+          "md5": "58290657ed717c362d5a4c20c8300cfc"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-watchosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "subsonic-api-watchosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

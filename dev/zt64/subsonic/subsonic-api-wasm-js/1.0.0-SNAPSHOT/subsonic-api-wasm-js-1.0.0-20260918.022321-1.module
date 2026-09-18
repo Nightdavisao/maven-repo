@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-api/1.0.0-SNAPSHOT/subsonic-api-1.0.0-SNAPSHOT.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-api",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-wasm-js-1.0.0-SNAPSHOT.klib",
+          "url": "subsonic-api-wasm-js-1.0.0-SNAPSHOT.klib",
+          "size": 316880,
+          "sha512": "6a228a5ce6f48fd59fe2860540a47344e7560499090e1f66aafcfedc7983cfa7d453ee9863bf6600c9a0eb324afd404904a14dbcd62797d1d58ec233981cbd10",
+          "sha256": "73e97c06b8cf669a080b23b2a6a61e7887a3b4be8c6f79bd959bccf57caf7e1e",
+          "sha1": "15af427f84909b9ec7f3d3979982d24a1f1944a6",
+          "md5": "51832bc7a5e6b7fb48a1e2658fee4078"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-wasm-js-1.0.0-SNAPSHOT.klib",
+          "url": "subsonic-api-wasm-js-1.0.0-SNAPSHOT.klib",
+          "size": 316880,
+          "sha512": "6a228a5ce6f48fd59fe2860540a47344e7560499090e1f66aafcfedc7983cfa7d453ee9863bf6600c9a0eb324afd404904a14dbcd62797d1d58ec233981cbd10",
+          "sha256": "73e97c06b8cf669a080b23b2a6a61e7887a3b4be8c6f79bd959bccf57caf7e1e",
+          "sha1": "15af427f84909b9ec7f3d3979982d24a1f1944a6",
+          "md5": "51832bc7a5e6b7fb48a1e2658fee4078"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "subsonic-api-wasm-js-1.0.0-SNAPSHOT-sources.jar",
+          "url": "subsonic-api-wasm-js-1.0.0-SNAPSHOT-sources.jar",
+          "size": 29936,
+          "sha512": "826de82b3a73c35376c69e3342679a32a42da040de591271a84edfda908a241b2a49c03597551ab1cd59c19b1fb79ca1e106875432e43e9a68b6b2dd694f5f30",
+          "sha256": "97cef69307922c301451e04a7aefb9120bc8aed7905a5e1d940a72b29579ebd7",
+          "sha1": "0a4c9448f01820e4f3262f871377353fbde13929",
+          "md5": "58290657ed717c362d5a4c20c8300cfc"
+        }
+      ]
+    }
+  ]
+}
