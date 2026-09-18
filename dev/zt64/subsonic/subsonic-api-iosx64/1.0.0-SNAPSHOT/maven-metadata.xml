@@ -3,44 +3,44 @@
   <groupId>dev.zt64.subsonic</groupId>
   <artifactId>subsonic-api-iosx64</artifactId>
   <versioning>
-    <lastUpdated>20260918025212</lastUpdated>
+    <lastUpdated>20260918050811</lastUpdated>
     <snapshot>
-      <timestamp>20260918.025212</timestamp>
+      <timestamp>20260918.050811</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260918.025212-1</value>
-        <updated>20260918025212</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>1.0.0-20260918.025212-1</value>
-        <updated>20260918025212</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.0-20260918.025212-1</value>
-        <updated>20260918025212</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260918.025212-1</value>
-        <updated>20260918025212</updated>
+        <value>1.0.0-20260918.050811-1</value>
+        <updated>20260918050811</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20260918.025212-1</value>
-        <updated>20260918025212</updated>
+        <value>1.0.0-20260918.050811-1</value>
+        <updated>20260918050811</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.0-20260918.050811-1</value>
+        <updated>20260918050811</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260918.025212-1</value>
-        <updated>20260918025212</updated>
+        <value>1.0.0-20260918.050811-1</value>
+        <updated>20260918050811</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260918.050811-1</value>
+        <updated>20260918050811</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>1.0.0-20260918.050811-1</value>
+        <updated>20260918050811</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

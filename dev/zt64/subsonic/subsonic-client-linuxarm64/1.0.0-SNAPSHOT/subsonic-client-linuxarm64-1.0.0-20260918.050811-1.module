@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-client/1.0.0-SNAPSHOT/subsonic-client-1.0.0-SNAPSHOT.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-client",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zt64.subsonic",
+          "module": "subsonic-api",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-client-linuxArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "subsonic-client-linuxarm64-1.0.0-SNAPSHOT.klib",
+          "size": 67238,
+          "sha512": "61b3f1470737eee8a725f35635b598ddfb34cc3db78872aef840fcf4b89833ef47f062c9eaa8159c7ace45b7af657a461c9262a0dd4c7bc5dd84de3f5622cbc7",
+          "sha256": "ec695b84fa544318ab2548eff649926d311bee3051fc7686de87701767c3fbb2",
+          "sha1": "f3c4131322c95907caee24131e369d53ef8d12b1",
+          "md5": "811bb63977e8fa7878bd536380aa9bd5"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "subsonic-client-linuxarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "subsonic-client-linuxarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 8111,
+          "sha512": "07f987b598ee52922cfb43df267ea27afd203d5c32105deadfddff10abefab66ae162cf6033f8b323fb327a9e7a90855165cdbce86a8a5fcf469b5475489e01c",
+          "sha256": "bcdcbcb8710aed2258a6d15526a8a4372c6e3f7a4aa6dcde4400b06301621c49",
+          "sha1": "6891f5fcdde933ced85d7abec673994bdeebea05",
+          "md5": "941f5221af6044d51c4aed46d8ff18c5"
+        }
+      ]
+    }
+  ]
+}

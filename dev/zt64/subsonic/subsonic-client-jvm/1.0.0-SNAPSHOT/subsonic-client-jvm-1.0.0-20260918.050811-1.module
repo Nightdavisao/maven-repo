@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../subsonic-client/1.0.0-SNAPSHOT/subsonic-client-1.0.0-SNAPSHOT.module",
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-client",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zt64.subsonic",
+          "module": "subsonic-api",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-client-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "subsonic-client-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 135582,
+          "sha512": "222ff3dce65943980c4c1636e392cf68b43541f1c333e8cf447887a9a46586873639ecb934a87c1d395b49df23f3360d30df4d16534296d0a46dc45b34b717a3",
+          "sha256": "211605d069498d33b8cc7d4ebe0b83c2acddb4c53ef9b808a36f5eecc0557cbe",
+          "sha1": "5b294101c760c6b6bf80effb70520df260c79b17",
+          "md5": "3a3ce51fe4ffb3e0b88a45a3236b93c0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.zt64.subsonic",
+          "module": "subsonic-api",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-client-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "subsonic-client-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 135582,
+          "sha512": "222ff3dce65943980c4c1636e392cf68b43541f1c333e8cf447887a9a46586873639ecb934a87c1d395b49df23f3360d30df4d16534296d0a46dc45b34b717a3",
+          "sha256": "211605d069498d33b8cc7d4ebe0b83c2acddb4c53ef9b808a36f5eecc0557cbe",
+          "sha1": "5b294101c760c6b6bf80effb70520df260c79b17",
+          "md5": "3a3ce51fe4ffb3e0b88a45a3236b93c0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "subsonic-client-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "url": "subsonic-client-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "size": 8111,
+          "sha512": "07f987b598ee52922cfb43df267ea27afd203d5c32105deadfddff10abefab66ae162cf6033f8b323fb327a9e7a90855165cdbce86a8a5fcf469b5475489e01c",
+          "sha256": "bcdcbcb8710aed2258a6d15526a8a4372c6e3f7a4aa6dcde4400b06301621c49",
+          "sha1": "6891f5fcdde933ced85d7abec673994bdeebea05",
+          "md5": "941f5221af6044d51c4aed46d8ff18c5"
+        }
+      ]
+    }
+  ]
+}
