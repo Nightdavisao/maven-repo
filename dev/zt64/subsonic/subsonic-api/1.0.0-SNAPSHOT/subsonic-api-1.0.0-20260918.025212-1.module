@@ -1,0 +1,799 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.zt64.subsonic",
+    "module": "subsonic-api",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "md",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "subsonic-api-metadata-1.0.0-SNAPSHOT.jar",
+          "url": "subsonic-api-1.0.0-SNAPSHOT.jar",
+          "size": 46082,
+          "sha512": "5925a66cc86da321a6933f2edc212114b90872e83347d1664e46c8704ff5dfd5966b426d860b65c24ef4fca2ddb17c70a0b433132b352f6934b467ae6a85b26d",
+          "sha256": "2310cba3af9ca94971d855dcbd29c2c78d72b93ace920135f8848a50c0de8a48",
+          "sha1": "98e73d9c1eadd2611bf7f0dbdb59d3b80ccdc771",
+          "md5": "ac735a90c1e7fb0b60158d993dd345f1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "subsonic-api-kotlin-1.0.0-SNAPSHOT-sources.jar",
+          "url": "subsonic-api-1.0.0-SNAPSHOT-sources.jar",
+          "size": 29936,
+          "sha512": "e3f455e99192b8531ccc5dad926b2afaf7b77c33bcf961a4e40b77e645c92168bd96d4d726319de9e9f0a97a6c0d6f73e99cb6a5f690d89c50f6313f6b6874db",
+          "sha256": "cde25d4e82449df7bb398be3177c74ed62ed7899f861ceae1d8c970cf3ece5f4",
+          "sha1": "d0cd9329af597d1d3299df290926a59b2055bdc3",
+          "md5": "f618f349c77d9593e8faed80bf83dcdf"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iosarm64/1.0.0-SNAPSHOT/subsonic-api-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iosarm64/1.0.0-SNAPSHOT/subsonic-api-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iosarm64/1.0.0-SNAPSHOT/subsonic-api-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iosx64/1.0.0-SNAPSHOT/subsonic-api-iosx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iosx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iosx64/1.0.0-SNAPSHOT/subsonic-api-iosx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iosx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-iosx64/1.0.0-SNAPSHOT/subsonic-api-iosx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-iosx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-js/1.0.0-SNAPSHOT/subsonic-api-js-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-js/1.0.0-SNAPSHOT/subsonic-api-js-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-js/1.0.0-SNAPSHOT/subsonic-api-js-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-jvm/1.0.0-SNAPSHOT/subsonic-api-jvm-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-jvm/1.0.0-SNAPSHOT/subsonic-api-jvm-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-jvm/1.0.0-SNAPSHOT/subsonic-api-jvm-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-linuxarm64/1.0.0-SNAPSHOT/subsonic-api-linuxarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-linuxarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-linuxarm64/1.0.0-SNAPSHOT/subsonic-api-linuxarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-linuxarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-linuxx64/1.0.0-SNAPSHOT/subsonic-api-linuxx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-linuxx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-linuxx64/1.0.0-SNAPSHOT/subsonic-api-linuxx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-linuxx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-macosarm64/1.0.0-SNAPSHOT/subsonic-api-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-macosarm64/1.0.0-SNAPSHOT/subsonic-api-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-macosarm64/1.0.0-SNAPSHOT/subsonic-api-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-mingwx64/1.0.0-SNAPSHOT/subsonic-api-mingwx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-mingwx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-mingwx64/1.0.0-SNAPSHOT/subsonic-api-mingwx64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-mingwx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-tvosarm64/1.0.0-SNAPSHOT/subsonic-api-tvosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-tvosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-tvosarm64/1.0.0-SNAPSHOT/subsonic-api-tvosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-tvosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-tvosarm64/1.0.0-SNAPSHOT/subsonic-api-tvosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-tvosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-tvossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-tvossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-tvossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-tvossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-tvossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-tvossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-tvossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-tvossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-tvossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-wasm-js/1.0.0-SNAPSHOT/subsonic-api-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-wasm-js/1.0.0-SNAPSHOT/subsonic-api-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-wasm-js/1.0.0-SNAPSHOT/subsonic-api-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchosarm32/1.0.0-SNAPSHOT/subsonic-api-watchosarm32-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchosarm32",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchosarm32/1.0.0-SNAPSHOT/subsonic-api-watchosarm32-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchosarm32",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchosarm32/1.0.0-SNAPSHOT/subsonic-api-watchosarm32-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchosarm32",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchosarm64/1.0.0-SNAPSHOT/subsonic-api-watchosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchosarm64/1.0.0-SNAPSHOT/subsonic-api-watchosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchosarm64/1.0.0-SNAPSHOT/subsonic-api-watchosarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-watchossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-watchossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../subsonic-api-watchossimulatorarm64/1.0.0-SNAPSHOT/subsonic-api-watchossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "dev.zt64.subsonic",
+        "module": "subsonic-api-watchossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}
